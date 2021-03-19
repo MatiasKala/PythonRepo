@@ -5,6 +5,6 @@ dicTest = {
    "Perros" : ["Tatig", "Papug"]
 }
 
-print(dicTest["Nombre"])
+print(dicTest["Nombre"],dicTest["Edad"],dicTest["Perros"][1])
 
 
