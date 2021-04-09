@@ -28,6 +28,7 @@ def mergeSort(alist):
  
         # Luego de ir comparando entre los dos arrays, termina de vaciar el que quede con algo (porque ya esta ordenado)
         while i < len(lefthalf):
+
             alist[k]=lefthalf[i]
             i=i+1
             k=k+1
