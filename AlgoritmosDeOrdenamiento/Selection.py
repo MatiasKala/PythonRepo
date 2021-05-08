@@ -1,7 +1,8 @@
 array = [64, 25, 12, 22, 11]
 tamanio=len(array)
 
-# Una vuelta general
+# Una vuelta general, despues adentro van a haber vueltas
+# similares a las que haciamos en el Insertion
 for i in range(tamanio):
       
     """
