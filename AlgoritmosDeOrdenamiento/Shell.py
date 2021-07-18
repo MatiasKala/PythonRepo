@@ -47,3 +47,11 @@ def shellSort(arr):
 
 array=shellSort([2,48,283,82,71,23,82,73,12,33,14,518,1,23,2,93,19])
 print(array)
+
+# PSEUDO 
+
+# shellSort(array, size)
+#   for interval i <- size/2n down to 1
+#     for each interval "i" in array
+#         sort all the elements at interval "i"
+# end shellSort

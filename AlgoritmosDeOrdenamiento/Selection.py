@@ -21,5 +21,17 @@ for i in range(tamanio):
     # Intercambiamos el numero mas bajo encontrado por el primero
     array[i], array[min_idx] = array[min_idx], array[i]
   
+
 print ("Sorted array")
 print(array)
+
+# PSEUDO
+
+# selectionSort(array, size)
+#   repeat (size - 1) times
+#   set the first unsorted element as the minimum
+#   for each of the unsorted elements
+#     if element < currentMinimum
+#       set element as new minimum
+#   swap minimum with first unsorted position
+# end selectionSort

@@ -19,3 +19,13 @@ def bubbleSort(arr):
 arr = [64, 34, 25, 12, 22, 11, 90]
 bubbleSort(arr)
 print(arr)
+
+# PSEUDO
+
+# bubbleSort(array)
+#   for i <- 1 to indexOfLastUnsortedElement-1
+#     if leftElement > rightElement
+#       swap leftElement and rightElement
+# end bubbleSort
+
+# Explicacion con imagenes: https://www.geeksforgeeks.org/bubble-sort/
