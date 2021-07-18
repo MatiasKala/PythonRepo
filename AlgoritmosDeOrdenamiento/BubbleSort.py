@@ -12,10 +12,10 @@ def bubbleSort(arr):
         for j in range(0, tamanio-i-1):
   
             # Intercambia si el numero siguiente es menor
-
+            
             if arr[j] > arr[j+1] :
                 arr[j], arr[j+1] = arr[j+1], arr[j]
   
 arr = [64, 34, 25, 12, 22, 11, 90]
 bubbleSort(arr)
-print(a)
+print(arr)
